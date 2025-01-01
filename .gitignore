@@ -2,6 +2,4 @@
 /venv-fastapi-ml-webapp
 
 #Ignore the .DS_Store file 
-.DS_Store 
-
-#Things
+.DS_Store
