@@ -2,4 +2,7 @@
 /venv-fastapi-ml-webapp
 
 #Ignore the .DS_Store file 
-.DS_Store
+.DS_Store 
+
+#Ignote pycache files 
+__pycache__/
