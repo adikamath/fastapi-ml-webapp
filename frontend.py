@@ -1,3 +1,4 @@
+# Import the required libraries
 import streamlit as st
 import requests
 
@@ -69,4 +70,3 @@ elif choice == "Classify Your Banknotes":
 
        else:
           st.warning("Please enter valid numerical values for all input features")
-
