@@ -1,3 +1,5 @@
+'''Run the app using: streamlit run frontend.py'''
+
 # Import the required libraries
 import streamlit as st
 import requests
