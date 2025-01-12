@@ -1,4 +1,4 @@
-# Fast API Web App: Banknote Classifier 
+# FastAPI Web App: Banknote Classifier 
 
 ## Introduction
 
@@ -16,16 +16,22 @@ The machine learning model we will train and deploy via the web app is a Random 
 
 One last thing to note is that this project does not go over how to deploy the web app over the web but just to create a working web app that you can run in your local environment.
 
-## Features 
+## Installation & Usage
 
-## Installation 
-
-## Usage 
+- Install the latest versions of [Python](https://www.python.org) and [pip](https://pip.pypa.io/en/stable/) (package installer) in your local environment.
+- Create a directory for your project and, create and run a virtual environment. 
+- Use pip to install all dependencies listed in the requirements.txt file. 
+- Start the web server and run the web app using the following command in your terminal - uvicorn app:app --reload 
+- Run the Streamlit server using the following command in your terminal: streamlit run frontend.py 
+- The app should open in your browser.
 
 ## Attribution 
 
 - **Dataset**: [Banknote Authentication (UC Irvine Machine Learning Repository)](https://archive.ics.uci.edu/dataset/267/banknote+authentication)
 - **FastAPI Tutorial**: [FastAPI Deployment Tutorials (By Krish Naik)](https://www.youtube.com/playlist?list=PLZoTAELRMXVPgsojPOHF9i0u2L83-m9P7)
+
+## My Blog 
+[www.adityakamath.com](https://adityakamath.com)
 
 ## License
 
@@ -39,5 +45,3 @@ Under the following terms:
 - **Attribution**: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
 For more details, see the full [license text](https://creativecommons.org/licenses/by/4.0/legalcode).
-
-## Contact
